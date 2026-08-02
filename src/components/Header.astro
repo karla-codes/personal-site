@@ -1,8 +1,24 @@
 ---
-import Navigation from '../components/Navigation.astro';
+import Currently from '../components/Currently.astro';
 ---
 
 <header>
-	<h1>karla d.w</h1>
-	<p><strong>Feeling:</strong> 🙃</p>
+	<h1><a href="/">karla d.w</a></h1>
 </header>
+
+<style>
+	a,
+	a:link,
+	a:visited,
+	a:active {
+		text-decoration: none;
+		color: inherit;
+	}
+
+	a:hover {
+		color: #c71585;
+	}
+	span {
+		font-size: 1.2rem;
+	}
+</style>

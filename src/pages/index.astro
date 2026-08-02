@@ -1,8 +1,13 @@
 ---
 import SiteLayout from '../layouts/SiteLayout.astro';
+import Currently from '../components/Currently.astro';
 import Intro from '../components/Intro.astro';
+import Navigation from '../components/Navigation.astro';
 ---
 
+<!-- main site wrapped around body tag -->
 <SiteLayout>
+	<Currently />
 	<Intro />
+	<Navigation />
 </SiteLayout>
