@@ -9,7 +9,15 @@ import Navigation from '../components/Navigation.astro';
 <SiteLayout>
     <main>
         <Intro />
-        <Currently />
         <Navigation />
+        <Currently />
     </main>
 </SiteLayout>
+
+<style>
+    main {
+        display: flex;
+        flex-direction: column;
+        gap: 42px;
+    }
+</style>
